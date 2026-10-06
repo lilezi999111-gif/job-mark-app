@@ -1,0 +1,20 @@
+node_modules
+dist
+*.local
+
+# 个人数据文件：不上传（隐私）
+JobMark.html
+jobmark-data.json
+恢复备份.json
+seed-real6.json
+canonical-real6.json
+web-current.json
+recovered-seq*.json
+sample-ids.json
+release/
+
+# 本地配置与种子数据（个人环境信息，不入库）
+config.local.json
+seed.local.json
+AGENTS.md
+*.zip
